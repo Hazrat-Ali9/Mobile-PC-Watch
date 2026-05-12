@@ -5,7 +5,7 @@ import './Products.css'
 import Picked from '../Cart/Picked/Picked';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
-
+// products
 const Products = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
